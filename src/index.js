@@ -8,6 +8,7 @@ import thunkMiddleware from 'redux-thunk';
 
 import './index.css';
 import App from './containers/App';
+import registerServiceWorker from './registerServiceWorker';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 
