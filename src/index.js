@@ -8,7 +8,7 @@ import thunkMiddleware from 'redux-thunk';
 
 import './index.css';
 import App from './containers/App';
-import registerServiceWorker from './registerServiceWorker';
+import * as serviceWorker from './serviceWorker';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 
@@ -27,7 +27,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-registerServiceWorker();
+serviceWorker.register();
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
