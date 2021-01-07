@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/robofriends-redux/static/css/main.0b2ee076.chunk.css",
-    "main.js": "/robofriends-redux/static/js/main.c9c705e3.chunk.js",
-    "main.js.map": "/robofriends-redux/static/js/main.c9c705e3.chunk.js.map",
+    "main.css": "/robofriends-redux/static/css/main.127979d2.chunk.css",
+    "main.js": "/robofriends-redux/static/js/main.96ac73bf.chunk.js",
+    "main.js.map": "/robofriends-redux/static/js/main.96ac73bf.chunk.js.map",
     "runtime-main.js": "/robofriends-redux/static/js/runtime-main.f0fa5b18.js",
     "runtime-main.js.map": "/robofriends-redux/static/js/runtime-main.f0fa5b18.js.map",
     "static/css/2.31461e4f.chunk.css": "/robofriends-redux/static/css/2.31461e4f.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.a618ee76.chunk.js.map": "/robofriends-redux/static/js/2.a618ee76.chunk.js.map",
     "index.html": "/robofriends-redux/index.html",
     "static/css/2.31461e4f.chunk.css.map": "/robofriends-redux/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.0b2ee076.chunk.css.map": "/robofriends-redux/static/css/main.0b2ee076.chunk.css.map",
+    "static/css/main.127979d2.chunk.css.map": "/robofriends-redux/static/css/main.127979d2.chunk.css.map",
     "static/js/2.a618ee76.chunk.js.LICENSE.txt": "/robofriends-redux/static/js/2.a618ee76.chunk.js.LICENSE.txt",
     "static/media/App.css": "/robofriends-redux/static/media/El Tito Adolfo.b6bb1fc0.woff"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.f0fa5b18.js",
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.a618ee76.chunk.js",
-    "static/css/main.0b2ee076.chunk.css",
-    "static/js/main.c9c705e3.chunk.js"
+    "static/css/main.127979d2.chunk.css",
+    "static/js/main.96ac73bf.chunk.js"
   ]
 }
