@@ -10,5 +10,17 @@
 
 h1 {
   font-family: 'El Tito Adolfo Regular';
-  color: #19A974;
+}
+
+.top {
+  position: fixed;
+  top: 0;
+  left: 50;
+  z-index: 1;
+  background: #FFD700;
+  width: 100%;
+}
+
+.card-container {
+  padding-top: 150px;
 }

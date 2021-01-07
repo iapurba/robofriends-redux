@@ -3,14 +3,14 @@ import Card from './Card';
 
 const CardList = ({ robots }) => {
   return (
-    <div className='bt bw1 pa2'>
+    <div className='pa2'>
       {
         robots.map((user, i) => {
           return (
             <Card
               key={i}
               id={robots[i].id}
-              name={robots[i].name}
+              name={robots[i].name.split(' ').slice(0,2).join(' ')}
               email={robots[i].email}
               />
           );

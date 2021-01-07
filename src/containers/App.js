@@ -35,12 +35,16 @@ class App extends Component {
       return robot.name.toLowerCase().includes(searchField.toLowerCase());
     })
     return isPending ?
-      <h1>Loading</h1> :
+      <h1 className='mid-gray pv-4'>Loading . . .</h1> :
       (
         <div>
-          <h1>RoboFriends</h1>
-          <SearchBox searchChange={onSearchChange}/>
-          <CardList robots={filteredRobots} />
+          <div className='top shadow-5'>
+            <h1 className='mid-gray'>RoboFriends</h1>
+            <SearchBox searchChange={onSearchChange}/>
+          </div>
+          <div className='card-container'>
+            <CardList robots={filteredRobots} />
+          </div>
         </div>
       );
   }
