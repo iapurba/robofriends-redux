@@ -32,7 +32,8 @@ class App extends Component {
   render() {
     const { searchField, onSearchChange, robots, isPending } = this.props;
     const filteredRobots = robots.filter(robot =>{
-      return robot.name.toLowerCase().includes(searchField.toLowerCase());
+      const robotName = robot.name.split(' ').slice(0,2).join(' ')
+      return robotName.toLowerCase().includes(searchField.toLowerCase());
     })
     return isPending ?
       <h1 className='mid-gray pv-4'>Loading . . .</h1> :
